@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Nội Thất</title>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
@@ -48,10 +48,14 @@
         <div class="about_us">
             <div class="container">
                 <div class="row about_col">
-                    <div class="col-sm-6">
-                        <img src="images/banghe.jpg"/>
+                    <div class="col-sm-7 images">
+                        <div class="relative"> <!--cha position:realative-->
+                            <div class="absolute-child">
+                                <!--con có position: absolute -->
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-sm-6 about_col text">
+                    <div class="col-sm-5 about_col text">
                         <h3>You Dream It,<br>
                             We Make It</h3>
                         <nav class="menu">
@@ -75,8 +79,8 @@
             <div class="container">
                 <div class="row"><h3>How can We Help </h3></div>
                 <div class="row">
-                    <div class="col-sm-4 services_col">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <div class="col-sm-4 services_col col1">
+                        <img src="images/icon1.jpg"/>
                         <p class="text1">Planning</p>
                         <p class="text2">Leverage agile frameworks to provide a <br>
                             robust synopsis for high level overviews. <br>
@@ -84,8 +88,8 @@
                             tegy foster
                         </p>
                     </div>
-                    <div class="col-sm-4 services_col">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <div class="col-sm-4 services_col col2">
+                        <img src="images/icon2.jpg"/>
                         <p class="text1">Interior Design</p>
                         <p class="text2"> Leverage agile frameworks to provide<br>
                             a robust synopsis for high level overviews. <br>
@@ -94,7 +98,7 @@
                         </p>
                     </div>
                     <div class="col-sm-4 services_col">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <img src="images/icon.jpg"/>
                         <p class="text1">Creative Working</p>
                         <p class="text2"> Leverage agile frameworks to provide<br>
                             a robust synopsis for high level overviews. <br>
@@ -124,16 +128,17 @@
         <div class="intro4"></div>
         <div class="intro5"></div>
         <!--Subscribe-->
-        <div class="subscribe" style="background-color: #f66c27;">
+        <div class="subscribe">
             <div class="container">
                 <div class="row">
-                    <h4>Need A Hand In Decoration Send Us Your Email</h4>
+                    <h3>Need A Hand In Decoration Send Us Your Email</h3>
+                    <p>SUBSCRIBE</p>
                     <div class="content-form">
                         <form name="contact" action="" method="post">
                             <input name="email" type="text" value="" placeholder="Enter Your Email Address">
-                            <input name="submit" type="submit" value="Submit">
+                            <input type="submit" name="submit" value="Submit">
                         </form>
-                    </div>
+                   </div>
                 </div>
             </div>
 
@@ -151,6 +156,7 @@
                     <p><span>Serian Mella</span><br>
                         Ui Desinger
                     </p>
+                    <p class="cham">.<span>.</span>.</p>
                 </div>
             </div>
         </div>
@@ -160,7 +166,7 @@
                 <div class="row">
                     <div class="col-sm-4 project-col project-col-1">
                         <div class="project_item">
-                            <h3>Our Projects</h3>
+                           <h3>Our Projects</h3>
                             <p class="project-intro">
                                 <span>Suspendisse magna dui, porta </span><br/>
                                 Capitalize on low hanging fruit to identify <br>

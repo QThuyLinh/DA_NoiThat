@@ -1,0 +1,414 @@
+.clearfix {
+    overflow: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* header css */
+.header{
+    box-sizing: border-box;
+    height: 170px;
+    max-height: 170px;
+    padding: 50px 0;
+}
+.header .logo {
+
+}
+.header nav.main-menu{
+
+}
+.header nav.main-menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.header nav.main-menu li{
+    float: left;
+}
+.header nav.main-menu a{
+    display: inline-block;
+    padding: 10px 25px;
+    color: #8d8d8d;
+    font-size: 20px;
+}
+.header nav.main-menu i{
+    color: #8d8d8d;
+    font-size: 12px;
+}
+/*Banner*/
+.banner{
+    margin-top: -170px;
+    height: 936px;
+    width: 100%;
+    background: url("../images/header.jpg") top center;
+    display: table;
+}
+.banner h1{
+    font-size: 83px;
+    color: #000000;
+    display: table-cell;;
+    text-align: center;
+    vertical-align: middle;
+}
+.banner h1 span{
+    color: #f66c27;
+}
+
+/* footer css*/
+.footer{
+    background: linear-gradient(to right, #f66c27 50%, #ffffff 50%);
+}
+.footer .contact-form{
+    background: #f66c27;
+    box-sizing: border-box;
+    height: 700px;
+}
+.contact-form .content-form{
+    background: #fff;
+    padding: 60px;
+    margin-top: 138px;
+    margin-right: 100px;
+}
+.contact-form input, textarea{
+    border: none;
+    border-bottom: 1px solid #c8c8c8;
+    width: 100%;
+    font-size: 15px;
+    color: #777777;
+}
+.first-row input{
+    width: 40%;
+}
+.first-row:after{
+    content: "";
+    clear: both;
+}
+.first-row input[name="email"]{
+    float: right;
+}
+.content-form input:focus, textarea:focus{
+    outline: none;
+}
+.contact-form-row{
+    margin-bottom: 20px;
+}
+.submit-row{
+    text-align: center;
+}
+.contact-form input[type="text"]{
+    padding: 5px;
+}
+.contact-form input[type="submit"]{
+    background: #f48146;
+    color: #fff;
+    display: inline-block;
+    width: auto;
+    padding: 6px 20px;
+    border-radius: 32px;
+    font-size: 18px;
+}
+footer .contact-info{
+    box-sizing: border-box;
+    height: 700px;
+    padding-left: 100px;
+}
+footer .contact-info h3{
+    margin-top: 108px;
+    font-size: 45px;
+}
+.line-contact-info{
+    padding:  20px 0;
+}
+.line-contact-info h4{
+    color: #333333;
+    font-size: 25px;
+}
+.line-contact-info p{
+    font-size: 15px;
+    max-width: 300px;
+}
+.line-contact-info p span{
+    color: #f48146;
+    background: #fff;
+}
+footer .social-icon i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #bbbbbb;
+    text-align: center;
+    color: #fff;
+    margin-right: 20px;
+}
+footer .social-icon i:hover{
+    background: #f48146;
+}
+/*services (content2 - 3hcn)*/
+.services .row{
+    box-sizing: border-box;
+    margin: 0 100px;
+}
+.services .row h3{
+    margin-bottom: 70px;
+    font-size: 45px;
+}
+.services .services_col{
+    width: 350px;
+    height: 380px;
+    padding: 5px 0;
+    text-align: center;
+    border: 1px solid #ffffff;
+    z-index: 1;
+}
+.services .services_col .text1{
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.services .services_col .text2{
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+.services .col2{
+    box-shadow: 5px 10px 18px #e5e5e5;
+}
+.services .col1{
+   background: #eeeded;
+}
+.services img{
+    width: 35px;
+    height: 45px;
+    margin-top: 80px;
+}
+/*Bản đồ (content3)*/
+.intro3{
+    padding-top: 100px;
+}
+.intro3 h3{
+    font-size: 45px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.intro3 p{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.row p{
+    color: #777777;
+}
+/*Our projects ( content 6-4 cái ghế)*/
+.our_project{
+    padding: 50px 0;
+}
+.our_project h3{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.our_project .project-col img{
+    max-width: 100%;
+    padding: 5px;
+    border: 1px solid #eeeeee;
+}
+.our_project .project-col-1 img{
+    height: 300px;
+    width: auto;
+}
+.our_project .project-col-1 .project_item{
+    margin-bottom: 90px;
+}
+.our_project .project-col-1 p{
+    margin-bottom: 35px;
+}
+.our_project .project-col-1 a{
+    background: #f48146;
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 32px;
+}
+.our_project .project-col-2 img{
+    height: 650px;
+    width: auto;
+}
+.our_project .project-col-3 img{
+    height: 300px;
+    width: auto;
+    margin-bottom: 48px;
+}
+.our_project .project-col-1 .project_item p span{
+    color: #f48146;
+}
+.our_project .project-col-1 .project_item p{
+    color: #777777;
+}
+/*Our client ( content5 - nữ)*/
+.our_client{
+    background-color: #f8f8f8;
+}
+.our_client .container{
+    margin-bottom: 150px;
+    height: 600px;
+}
+.our_client .container .row h3{
+    width: 100%;
+    text-align: center;
+    margin-top: 98px;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+.our_client .container .row p{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.our_client .container .row .cham{
+    font-size: 30px;
+    margin-bottom: 100px;
+
+}
+.our_client .container .row p span{
+    color: #f48146;
+}
+
+/*subscribe ( content4- nền cam)*/
+.subscribe{
+    background-color: #f66c27;
+}
+
+.subscribe .container .row{
+    width: 100%;
+    max-height: 360px;
+    min-height: 360px;
+    text-align: center;
+}
+.subscribe .container .row h3{
+    width: 100%;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 65px;
+    color: #eeeeee;
+
+}
+.subscribe .container .row div{
+    /*width: 100%;
+    text-align: center;
+    margin-bottom: 110px; */
+    padding-top: 190px;
+    left: 345px;
+    position: absolute;
+
+}
+.subscribe .container  .content-form input[name="email"]{
+    padding: 6px 20px;
+    border: 1px solid #eeeeee;
+    display: inline-block;
+    width: 535px;
+    border-radius: 32px;
+    font-size: 18px;
+
+}
+.subscribe .container  .content-form input[type="submit"] {
+    background: #f48146;
+    color: #fff;
+    display: inline-block;
+    width: auto;
+    padding: 6px 20px;
+    border-radius: 32px;
+    font-size: 18px;
+
+}
+.subscribe p{
+    font-size: 220px;
+    position: relative;
+    text-align: center;
+    width: auto;
+    color: #f5f2f1;
+    opacity: 0.15;
+    filter: alpha(opacity=15);
+    letter-spacing: -5px;
+    top: -145px;
+    padding: 0 50px;
+}
+/*about_us (content1)*/
+.about_us .container .row {
+    box-sizing: border-box;
+    padding: 30px 0;
+    margin-bottom: 125px;
+}
+
+.about_us .container .row .images{
+    margin-top: 100px;
+}
+.relative {
+    height: 440px;
+    width: 610px;
+    background-image: url("../images/banghe.jpg");
+    position: relative; /*absolute : thẻ con nhận body làm cha*/
+    border: 6px solid #ffffff;
+    box-shadow: 5px 10px 18px #e5e5e5;
+}
+.relative .absolute-child{
+    position: absolute;
+    background-image: url("../images/binhhoa.jpg");
+    background-repeat: no-repeat;
+    top: 286px;
+    left: 340px;
+    height: 220px;
+    width: 296px;
+    border: 6px solid #ffffff;
+    padding: 5px;
+    box-shadow: 5px 10px 18px #e5e5e5;
+}
+
+.about_us .text {
+    width: auto;
+    margin-top: 150px;
+}
+
+.about_us .about_col h3 {
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+.about_us .about_col .menu {
+
+}
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a {
+    display: inline-block;
+    padding: 0 80px 0 0;
+    color: #f48146;
+    text-decoration: none;
+
+}
+.about_us .about_col p {
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+.about_us .about_col .button_about {
+    background: #f48146;
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 32px;
+}
+
+
+
+
+
